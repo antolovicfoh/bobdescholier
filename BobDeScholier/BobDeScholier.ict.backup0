@@ -1,0 +1,1276 @@
+ctjsVersion: 5.3.1
+backups: 3
+language: typescript
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+    debugMode: false
+    debugText: 0
+  pointer:
+    startlocked: false
+  keyboard: {}
+  keyboard.polyfill: {}
+  pointer.polyfill: {}
+  gamepad: {}
+  vkeys: {}
+startroom: -1
+contentTypes: []
+actions:
+  - name: Omhoog
+    methods:
+      - code: keyboard.KeyW
+  - name: Omlaag
+    methods:
+      - code: keyboard.KeyS
+  - name: Links
+    methods:
+      - code: keyboard.KeyA
+  - name: Rechts
+    methods:
+      - code: keyboard.KeyD
+scripts: []
+assets:
+  - type: folder
+    uid: rLHBPznNbRmjw7
+    colorClass: accent1
+    icon: help-circle
+    name: Kamers
+    lastmod: 1791542799597
+    entries:
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: true
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: HomeRoom
+        backgroundColor: '#4F4F4F'
+        follow: -1
+        backgrounds: []
+        copies:
+          - x: 530
+            'y': 273.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: 1WfnqLqPtRbQBh
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 564
+            'y': 324.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: zncpbw36TJLF7Q
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1790936455055
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: QBTLWBF3BPhJ1G
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: true
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: Levels
+        backgroundColor: '#87553A'
+        follow: -1
+        backgrounds: []
+        copies:
+          - x: 344
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.875
+              'y': 2.765625
+            rotation: 0
+            uid: kFjcCTP39cpCr6
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 524
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.875
+              'y': 2.765625
+            rotation: 0
+            uid: Fh5PMdCB3KHmQT
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 704
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.875
+              'y': 2.765625
+            rotation: 0
+            uid: Mwn7JC8bwK72Rh
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 884
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.875
+              'y': 2.765625
+            rotation: 0
+            uid: nJGwr764H16cn4
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 377
+            'y': 269.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: TGmc7rtMPQjbPD
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 558
+            'y': 269.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: CB25FLCRC9crdd
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 739
+            'y': 269.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: FJfpBCDzfn12zm
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 918
+            'y': 269.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: LbrzNR6hJ9Bb8N
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1793198692462
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: PL6LW8jk7D2m44
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: true
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: Main
+        backgroundColor: '#87553A'
+        follow: -1
+        backgrounds: []
+        copies:
+          - x: 603.71952042
+            'y': 108.57410783
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 3
+              'y': 3
+            rotation: 0
+            uid: 5MLMNQwDKNzW8J
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 628.74030098
+            'y': 436.43968512
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.3
+              'y': 0.3
+            rotation: 0
+            uid: 935bG92jh6N7KL
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 349
+            'y': 262.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 3
+              'y': 3
+            rotation: 0
+            uid: t9nbmTDkF2jBcH
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 871
+            'y': 275.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 3
+              'y': 3
+            rotation: 0
+            uid: w8fWWT44jC8K5k
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 348
+            'y': 240.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: 6qgjcmcFhBGbgf
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 580
+            'y': 87.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: mL6k7CLmgTt5T3
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 861
+            'y': 252.5
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: rGt8LKMjKwBzgh
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+        tiles: []
+        extends: {}
+        lastmod: 1793198550097
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: 9q796tHJ48zJ7G
+      - type: room
+        oncreate: ''
+        onstep: ''
+        ondraw: ''
+        onleave: ''
+        gridX: 64
+        gridY: 64
+        diagonalGrid: false
+        disableGrid: false
+        simulate: true
+        width: 1280
+        height: 720
+        restrictCamera: false
+        restrictMaxX: 1280
+        restrictMinX: 0
+        restrictMaxY: 720
+        restrictMinY: 0
+        isUi: false
+        name: Level1
+        backgroundColor: '#787878'
+        follow: -1
+        backgrounds: []
+        copies: []
+        tiles: []
+        extends: {}
+        lastmod: 1791542881614
+        events: []
+        behaviors: []
+        extendTypes: ''
+        uid: cCfPGNHndWqBwj
+  - type: folder
+    uid: cdzWrMjB9d4gH1
+    colorClass: act
+    icon: help-circle
+    name: Textures
+    lastmod: 1791542831215
+    entries:
+      - lastmod: 1790938094604
+        type: texture
+        name: FullTilemap
+        untill: 0
+        grid:
+          - 9
+          - 8
+        axis:
+          - 136
+          - 64.16666666666666
+        marginx: 0
+        marginy: 0
+        imgWidth: 144
+        imgHeight: 128
+        width: 16
+        height: 16
+        offx: 0
+        offy: 0
+        origname: iGPt6NHdMN6jhhT.png
+        shape: rect
+        left: 8
+        right: 8
+        top: 16
+        bottom: 0
+        uid: GPt6NHdMN6jhhT
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Dungeon
+          Crawler 16x16\FullTilemap_9x8.png
+        tiled: true
+      - lastmod: 1790333002892
+        type: texture
+        name: Stair_02
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 500
+        imgHeight: 500
+        width: 500
+        height: 500
+        offx: 0
+        offy: 0
+        origname: iwbpgBdQFpmQpTC.png
+        shape: rect
+        left: 0
+        right: 500
+        top: 0
+        bottom: 500
+        uid: wbpgBdQFpmQpTC
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Hand
+          Drawn Isometric Dungeon Assets\Stair_02.png
+      - lastmod: 1790333340570
+        type: texture
+        name: Pause_Button
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 16
+        imgHeight: 16
+        width: 16
+        height: 16
+        offx: 0
+        offy: 0
+        origname: irTPHDqL16Pk48M.png
+        shape: rect
+        left: 0
+        right: 16
+        top: 0
+        bottom: 16
+        uid: rTPHDqL16Pk48M
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Dungeon
+          Crawler 16x16\Pause_Button.png
+      - lastmod: 1790333339413
+        type: texture
+        name: Level
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 96
+        imgHeight: 32
+        width: 96
+        height: 32
+        offx: 0
+        offy: 0
+        origname: iBWKmr8NKGGKbBG.png
+        shape: rect
+        left: 0
+        right: 96
+        top: 0
+        bottom: 32
+        uid: BWKmr8NKGGKbBG
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Dungeon
+          Crawler 16x16\Menu_Button_Press.png
+      - lastmod: 1790937999999
+        type: texture
+        name: Adventurer
+        untill: 0
+        grid:
+          - 9
+          - 3
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 720
+        imgHeight: 330
+        width: 80
+        height: 110
+        offx: 0
+        offy: 0
+        origname: iRFKt5FNptGPDdJ.png
+        shape: rect
+        left: 0
+        right: 80
+        top: 0
+        bottom: 110
+        uid: RFKt5FNptGPDdJ
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Kenney's
+          Platformer Characters\Adventurer_9x3.png
+      - lastmod: 1790937809448
+        type: texture
+        name: Door_FullyOpen
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: i5pwBbKJz8CDNBW.png
+        shape: rect
+        left: 0
+        right: 32
+        top: 0
+        bottom: 32
+        uid: 5pwBbKJz8CDNBW
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\AppData\Local\ct.js\package.nw\bundledAssets\textures\Dungeon
+          Crawler 16x16\Door_FullyOpen.png
+      - type: folder
+        uid: k9W6jjW3gn2563
+        colorClass: act
+        icon: help-circle
+        name: Nieuwe map
+        lastmod: 1791543052936
+        entries: []
+      - lastmod: 1791543145170
+        type: texture
+        name: eeed0a2e-43c9-4f58-9a58-466896a84abc
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 392.33333333333337
+          - 127.166666666667
+        marginx: 0
+        marginy: 0
+        imgWidth: 1254
+        imgHeight: 1254
+        width: 1254
+        height: 1254
+        offx: 0
+        offy: 0
+        origname: ipDqK6wrzbHqk7t.png
+        shape: rect
+        left: 0
+        right: 470
+        top: 0
+        bottom: 1040
+        uid: pDqK6wrzbHqk7t
+        padding: 1
+        isBlank: false
+        source: >-
+          C:\Users\PetarAntolovic\OneDrive -
+          Nuovo\BobDeScholier\BobDeScholier\eeed0a2e-43c9-4f58-9a58-466896a84abc.png
+  - type: folder
+    uid: tk3NrkwdP94JDN
+    colorClass: act
+    icon: help-circle
+    name: Sjabloons
+    lastmod: 1791542836863
+    entries:
+      - type: template
+        baseClass: Text
+        name: HomeTekst
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1790333276972
+        uid: 1WfnqLqPtRbQBh
+        behaviors: []
+        extendTypes: ''
+        defaultText: BobDeScholier
+        textStyle: -1
+      - type: template
+        baseClass: Button
+        name: LevelButton2
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('Level2');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542725997
+        uid: Fh5PMdCB3KHmQT
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+      - type: template
+        baseClass: Button
+        name: LevelButton1
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('Level1');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542724085
+        uid: kFjcCTP39cpCr6
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+      - type: template
+        baseClass: Button
+        name: LevelButton4
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('Level4');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542733278
+        uid: nJGwr764H16cn4
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+      - type: template
+        baseClass: Button
+        name: LevelButton3
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('Level3');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542729725
+        uid: Mwn7JC8bwK72Rh
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+      - type: template
+        baseClass: Text
+        name: leveltekst1
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542737382
+        uid: TGmc7rtMPQjbPD
+        behaviors: []
+        extendTypes: ''
+        defaultText: '1'
+        textStyle: -1
+      - type: template
+        baseClass: AnimatedSprite
+        name: Levels
+        depth: 0
+        texture: 5pwBbKJz8CDNBW
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: collisionTemplate
+            code: rooms.switch('Levels');
+            arguments:
+              template: 935bG92jh6N7KL
+            lib: place
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791541970198
+        uid: t9nbmTDkF2jBcH
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: Text
+        name: leveltekst3
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542544158
+        uid: FJfpBCDzfn12zm
+        behaviors: []
+        extendTypes: ''
+        defaultText: '3'
+        textStyle: -1
+      - type: template
+        baseClass: Text
+        name: leveltekst4
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542546807
+        uid: LbrzNR6hJ9Bb8N
+        behaviors: []
+        extendTypes: ''
+        defaultText: '4'
+        textStyle: -1
+      - type: template
+        baseClass: Text
+        name: leveltekst2
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542536192
+        uid: CB25FLCRC9crdd
+        behaviors: []
+        extendTypes: ''
+        defaultText: '2'
+        textStyle: -1
+      - type: template
+        baseClass: AnimatedSprite
+        name: speler
+        depth: 0
+        texture: zFp1nck318KfNW
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: |-
+              if (actions.Links.down) {
+                this.hspeed = -this.snelheid;
+              } else if (actions.Rechts.down) {
+                this.hspeed = this.snelheid;
+              } else {
+                this.hspeed = 0;
+              }
+
+              if (actions.Omhoog.down) {
+                this.vspeed = -this.snelheid;
+              } else if (actions.Omlaag.down) {
+                this.vspeed = this.snelheid;
+              } else {
+                this.vspeed = 0;
+              }
+
+              this.moveSmart('Solid');
+            arguments: {}
+          - eventKey: OnCreate
+            code: |
+              this.snelheid = 480;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198257472
+        uid: 935bG92jh6N7KL
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: Options
+        depth: 0
+        texture: 5pwBbKJz8CDNBW
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: collisionTemplate
+            code: rooms.switch('Options');
+            arguments:
+              template: 935bG92jh6N7KL
+            lib: place
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198606731
+        uid: w8fWWT44jC8K5k
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: stair
+        depth: 0
+        texture: wbpgBdQFpmQpTC
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1790333050235
+        uid: LnBQF61frDtn9t
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: Main Menu
+        depth: 0
+        texture: 5pwBbKJz8CDNBW
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: collisionTemplate
+            code: rooms.switch('HomeRoom');
+            arguments:
+              template: 935bG92jh6N7KL
+            lib: place
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198643732
+        uid: 5MLMNQwDKNzW8J
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: Button
+        name: HomePlay
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('Main');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1791542059953
+        uid: zncpbw36TJLF7Q
+        behaviors: []
+        extendTypes: ''
+        defaultText: Play!
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+      - type: template
+        baseClass: Text
+        name: menutekst1
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198464092
+        uid: 6qgjcmcFhBGbgf
+        behaviors: []
+        extendTypes: ''
+        defaultText: LEVELS
+        textStyle: -1
+      - type: template
+        baseClass: Text
+        name: menutekst3
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198489404
+        uid: rGt8LKMjKwBzgh
+        behaviors: []
+        extendTypes: ''
+        defaultText: OPTIONS
+        textStyle: -1
+      - type: template
+        baseClass: Text
+        name: menutekst2
+        depth: 0
+        texture: -1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198482988
+        uid: mL6k7CLmgTt5T3
+        behaviors: []
+        extendTypes: ''
+        defaultText: MAIN MENU
+        textStyle: -1
+      - type: template
+        baseClass: Button
+        name: LevelButton5
+        depth: 0
+        texture: BWKmr8NKGGKbBG
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnStep
+            lib: core
+            code: this.move();
+            arguments: {}
+          - eventKey: OnPointerClick
+            code: rooms.switch('MainRoom');
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793198774881
+        uid: bnGL6qPT7dCrkK
+        behaviors: []
+        extendTypes: ''
+        defaultText: ''
+        textStyle: -1
+        nineSliceSettings:
+          top: 16
+          left: 16
+          bottom: 16
+          right: 16
+          autoUpdate: false
+        hoverTexture: -1
+        pressedTexture: -1
+        disabledTexture: -1
+  - lastmod: 1793198237491
+    type: texture
+    name: ipDqK6wrzbHqk7t-removebg-preview
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 157
+      - 50
+    marginx: 0
+    marginy: 0
+    imgWidth: 500
+    imgHeight: 500
+    width: 500
+    height: 500
+    offx: 0
+    offy: 0
+    origname: izFp1nck318KfNW.png
+    shape: rect
+    left: 0
+    right: 187
+    top: -2
+    bottom: 416
+    uid: zFp1nck318KfNW
+    padding: 1
+    isBlank: false
+    source: >-
+      C:\Users\PetarAntolovic\OneDrive -
+      Nuovo\BobDeScholier\BobDeScholier\img\ipDqK6wrzbHqk7t-removebg-preview.png
+globalVars: []
+settings:
+  authoring:
+    author: ''
+    site: ''
+    title: ''
+    version:
+      - 0
+      - 0
+      - 0
+    versionPostfix: ''
+    appId: ''
+  rendering:
+    usePixiLegacy: true
+    transparent: false
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+    hideCursor: false
+    mobileScreenOrientation: unspecified
+    viewMode: scaleFit
+  export:
+    showErrors: true
+    errorsLink: ''
+    autocloseDesktop: true
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+    bundleAssetTree: false
+    bundleAssetTypes:
+      texture: true
+      template: true
+      room: true
+      behavior: false
+      typeface: false
+      sound: false
+      style: false
+      tandem: false
+      script: false
+      enum: false
+  branding:
+    accent: '#446adb'
+    invertPreloaderScheme: true
+    icon: -1
+    splashScreen: -1
+    forceSmoothIcons: false
+    forceSmoothSplashScreen: false
+    hideLoadingLogo: false
+    alternativeLogo: false
+    customLoadingText: ''
+  fps: 30
+palette:
+  - '#000000'
