@@ -30,6 +30,13 @@ actions:
   - name: Rechts
     methods:
       - code: keyboard.KeyD
+  - name: Actie
+    methods:
+      - code: keyboard.KeyE
+      - code: keyboard.Space
+  - name: Terug
+    methods:
+      - code: keyboard.Escape
 scripts: []
 assets:
   - type: folder
@@ -418,14 +425,725 @@ assets:
         restrictMinY: 0
         isUi: false
         name: Level1
-        backgroundColor: '#787878'
+        backgroundColor: '#22232b'
         follow: -1
         backgrounds: []
-        copies: []
+        copies:
+          - x: 32
+            'y': 480
+            opacity: 1
+            tint: '#8fa3b8'
+            scale:
+              x: 38
+              'y': 6.5
+            rotation: 0
+            uid: L1sMuurvlak001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 32
+            'y': 256
+            opacity: 1
+            tint: '#c9a98a'
+            scale:
+              x: 20.5
+              'y': 6.5
+            rotation: 0
+            uid: L1sMuurvlak001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 720
+            'y': 256
+            opacity: 1
+            tint: '#9cc29a'
+            scale:
+              x: 16.5
+              'y': 6.5
+            rotation: 0
+            uid: L1sMuurvlak001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 32
+            'y': 80
+            opacity: 1
+            tint: '#b5a3c9'
+            scale:
+              x: 38
+              'y': 5
+            rotation: 0
+            uid: L1sMuurvlak001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 400
+            'y': 520
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sSchoolbord1
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 260
+            'y': 286
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sSchoolbord1
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1000
+            'y': 286
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sSchoolbord1
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 0
+            'y': 64
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 40
+              'y': 0.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 0
+            'y': 64
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 20.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1248
+            'y': 64
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 20.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 0
+            'y': 688
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 40
+              'y': 1
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 32
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 34.5
+              'y': 0.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1184
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 2
+              'y': 0.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 32
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 2
+              'y': 0.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 144
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 34.5
+              'y': 0.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 688
+            'y': 256
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 6.5
+            rotation: 0
+            uid: L1sMuur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1136
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sLadder00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 96
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sLadder00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 770
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sDeur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 1200
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sDeur0000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 600
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sUitgang0001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 700
+            'y': 688
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sKluisje0001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 880
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sKluisje0001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 500
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sKluisje0001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 980
+            'y': 688
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sToets000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 900
+            'y': 464
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sToets000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 220
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sToets000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 560
+            'y': 688
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sLeraar00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 700
+            'y': 240
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sLeraar00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 940
+            'y': 256
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sCamera00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 360
+            'y': 256
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            uid: L1sCamera00001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
+          - x: 40
+            'y': 605
+            opacity: 1
+            tint: 16777215
+            scale:
+              x: 0.2
+              'y': 0.2
+            rotation: 0
+            uid: L1sBob00000001
+            exts: {}
+            customProperties: {}
+            customText: !<tag:yaml.org,2002:js/undefined> ''
+            customSize: !<tag:yaml.org,2002:js/undefined> ''
+            customWordWrap: !<tag:yaml.org,2002:js/undefined> ''
+            bindings: {}
         tiles: []
         extends: {}
-        lastmod: 1791542881614
-        events: []
+        lastmod: 1793300000000
+        events:
+          - eventKey: OnRoomStart
+            code: |-
+              // ===== Level 1: gedeelde spel-logica =====
+              // Alle objecten in deze kamer gebruiken het object L1 hieronder.
+              const L: any = {
+                status: 'spelen', // 'spelen' | 'betrapt' | 'gewonnen'
+                statusTijd: 0,
+                tijd: 0,
+                toetsen: 0,
+                totaal: templates.list['toets'].length,
+                melding: '',
+                meldingTijd: 0
+              };
+              (window as any).L1 = L;
+
+              // Rechthoek (links, boven, breedte, hoogte) van een kopie, rekening houdend met de as (anchor)
+              L.box = (c) => {
+                const w = Math.abs(c.width), h = Math.abs(c.height);
+                return { l: c.x - c.anchor.x * w, t: c.y - c.anchor.y * h, w: w, h: h };
+              };
+              // Bob zijn lichaam (de afbeelding heeft veel lege ruimte rondom)
+              L.spelerBox = (p) => {
+                const s = Math.abs(p.scale.y);
+                return { l: p.x, t: p.y, w: 188 * s, h: 415 * s };
+              };
+              L.overlapt = (a, b) =>
+                a.l < b.l + b.w && a.l + a.w > b.l && a.t < b.t + b.h && a.t + a.h > b.t;
+              L.raaktMuur = (box) => {
+                for (const m of templates.list['muur']) {
+                  if (!m.kill && L.overlapt(box, L.box(m))) {
+                    return true;
+                  }
+                }
+                return false;
+              };
+              // Bovenkant van de vloer net onder (x..x+w) op hoogte y, of null
+              L.vloerOp = (x, w, y) => {
+                for (const m of templates.list['muur']) {
+                  const b = L.box(m);
+                  if (x < b.l + b.w && x + w > b.l && Math.abs(b.t - y) < 1.5) {
+                    return b.t;
+                  }
+                }
+                return null;
+              };
+              // Eerste vloer onder punt (x, y)
+              L.vloerOnder = (x, y) => {
+                let beste = 99999;
+                for (const m of templates.list['muur']) {
+                  const b = L.box(m);
+                  if (x >= b.l && x <= b.l + b.w && b.t >= y && b.t < beste) {
+                    beste = b.t;
+                  }
+                }
+                return beste;
+              };
+              // Staat er een muur tussen x1 en x2 op hoogte y?
+              L.vrijZicht = (x1, x2, y) => {
+                const links = Math.min(x1, x2), rechts = Math.max(x1, x2);
+                for (const m of templates.list['muur']) {
+                  const b = L.box(m);
+                  if (b.l > links && b.l + b.w < rechts && y > b.t && y < b.t + b.h) {
+                    return false;
+                  }
+                }
+                return true;
+              };
+              L.meld = (tekst, duur) => {
+                L.melding = tekst;
+                L.meldingTijd = duur || 2;
+              };
+              L.betrapt = (reden) => {
+                if (L.status !== 'spelen') {
+                  return;
+                }
+                L.status = 'betrapt';
+                L.statusTijd = 0;
+                L.groot.text = 'BETRAPT!';
+                L.klein.text = reden + '\nOpnieuw proberen...';
+                L.overlay.visible = true;
+              };
+              L.win = () => {
+                if (L.status !== 'spelen') {
+                  return;
+                }
+                L.status = 'gewonnen';
+                L.statusTijd = 0;
+                L.groot.text = 'LEVEL GEHAALD!';
+                L.klein.text = 'Tijd: ' + Math.floor(L.tijd) + ' seconden';
+                L.overlay.visible = true;
+              };
+
+              // Pareer de deuren: deur 1 <-> deur 2, deur 3 <-> deur 4, ...
+              const deuren = templates.list['deur'];
+              for (let i = 0; i + 1 < deuren.length; i += 2) {
+                deuren[i].partner = deuren[i + 1];
+                deuren[i + 1].partner = deuren[i];
+              }
+
+              // Lichtbundels van leraren en camera's
+              L.licht = new PIXI.Graphics();
+              L.licht.zIndex = 5;
+              this.addChild(L.licht);
+
+              // HUD
+              const stijl = {
+                fontFamily: 'Arial, sans-serif',
+                fontSize: 26,
+                fontWeight: 'bold',
+                fill: 0xffffff,
+                stroke: 0x000000,
+                strokeThickness: 5
+              };
+              L.hud = new PIXI.Text('', stijl);
+              L.hud.x = 40;
+              L.hud.y = 16;
+              L.hud.zIndex = 1000;
+              this.addChild(L.hud);
+
+              L.hulp = new PIXI.Text('A/D lopen  W/S ladder & deur  E verstoppen  Esc terug', Object.assign({}, stijl, { fontSize: 18, strokeThickness: 4 }));
+              L.hulp.anchor.set(1, 0);
+              L.hulp.x = 1240;
+              L.hulp.y = 22;
+              L.hulp.zIndex = 1000;
+              this.addChild(L.hulp);
+
+              L.meldTekst = new PIXI.Text('', Object.assign({}, stijl, { fontSize: 24, fill: 0xffe066 }));
+              L.meldTekst.anchor.set(0.5, 0);
+              L.meldTekst.x = 640;
+              L.meldTekst.y = 16;
+              L.meldTekst.zIndex = 1000;
+              this.addChild(L.meldTekst);
+
+              L.overlay = new PIXI.Container();
+              L.overlay.zIndex = 2000;
+              L.overlay.visible = false;
+              const vlak = new PIXI.Graphics();
+              vlak.beginFill(0x000000, 0.6);
+              vlak.drawRect(0, 0, 1280, 720);
+              vlak.endFill();
+              L.overlay.addChild(vlak);
+              L.groot = new PIXI.Text('', Object.assign({}, stijl, { fontSize: 72, strokeThickness: 8 }));
+              L.groot.anchor.set(0.5);
+              L.groot.x = 640;
+              L.groot.y = 300;
+              L.overlay.addChild(L.groot);
+              L.klein = new PIXI.Text('', Object.assign({}, stijl, { fontSize: 28, align: 'center' }));
+              L.klein.anchor.set(0.5, 0);
+              L.klein.x = 640;
+              L.klein.y = 370;
+              L.overlay.addChild(L.klein);
+              this.addChild(L.overlay);
+
+              this.sortableChildren = true;
+              L.meld('Pak alle ' + L.totaal + ' toetsen en ontsnap via de groene deur!', 4);
+            arguments: {}
+            lib: core
+          - eventKey: OnStep
+            code: |-
+              const L = (window as any).L1;
+              if (!L) {
+                return;
+              }
+
+              if (actions.Terug.pressed) {
+                rooms.switch('Levels');
+                return;
+              }
+
+              if (L.status === 'spelen') {
+                L.tijd += u.time;
+              } else {
+                L.statusTijd += u.time;
+                if (L.status === 'betrapt' && L.statusTijd > 1.8) {
+                  rooms.switch('Level1');
+                  return;
+                }
+                if (L.status === 'gewonnen' && L.statusTijd > 3) {
+                  rooms.switch('Levels');
+                  return;
+                }
+              }
+
+              L.hud.text = 'Tijd: ' + Math.floor(L.tijd) + '    Toetsen: ' + L.toetsen + '/' + L.totaal;
+
+              if (L.meldingTijd > 0) {
+                L.meldingTijd -= u.time;
+                L.meldTekst.text = L.melding;
+                L.meldTekst.visible = true;
+                L.hulp.visible = false;
+              } else {
+                L.meldTekst.visible = false;
+                L.hulp.visible = true;
+              }
+
+              // Lichtbundels tekenen
+              const g = L.licht;
+              g.clear();
+              for (const l of templates.list['leraar']) {
+                if (l.kill) {
+                  continue;
+                }
+                const r = l.richting;
+                g.beginFill(0xfff3a0, l.alarm ? 0.45 : 0.18);
+                g.drawPolygon([
+                  l.x + r * 10, l.y - 82,
+                  l.x + r * l.zichtNu, l.y - 110,
+                  l.x + r * l.zichtNu, l.y
+                ]);
+                g.endFill();
+              }
+              for (const c of templates.list['camera']) {
+                if (c.kill || c.vloer === undefined || !c.aan) {
+                  continue;
+                }
+                g.beginFill(0x7dff9a, 0.22);
+                g.drawPolygon([
+                  c.x - 4, c.y + 18,
+                  c.x + 4, c.y + 18,
+                  c.raakX + c.breedte, c.vloer,
+                  c.raakX - c.breedte, c.vloer
+                ]);
+                g.endFill();
+              }
+            arguments: {}
+            lib: core
+          - eventKey: OnRoomEnd
+            code: |-
+              (window as any).L1 = null;
+            arguments: {}
+            lib: core
         behaviors: []
         extendTypes: ''
         uid: cCfPGNHndWqBwj
@@ -699,6 +1417,286 @@ assets:
         source: >-
           C:\Users\PetarAntolovic\OneDrive -
           Nuovo\BobDeScholier\BobDeScholier\eeed0a2e-43c9-4f58-9a58-466896a84abc.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_muur
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: iL1tMuur0000001.png
+        shape: rect
+        left: 0
+        right: 32
+        top: 0
+        bottom: 32
+        uid: L1tMuur0000001
+        padding: 1
+        isBlank: false
+        source: L1_muur.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_muurvlak
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 32
+        imgHeight: 32
+        width: 32
+        height: 32
+        offx: 0
+        offy: 0
+        origname: iL1tMuurvlak001.png
+        shape: rect
+        left: 0
+        right: 32
+        top: 0
+        bottom: 32
+        uid: L1tMuurvlak001
+        padding: 1
+        isBlank: false
+        source: L1_muurvlak.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_ladder
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 48
+        imgHeight: 224
+        width: 48
+        height: 224
+        offx: 0
+        offy: 0
+        origname: iL1tLadder00001.png
+        shape: rect
+        left: 0
+        right: 48
+        top: 0
+        bottom: 224
+        uid: L1tLadder00001
+        padding: 1
+        isBlank: false
+        source: L1_ladder.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_deur
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 28
+          - 96
+        marginx: 0
+        marginy: 0
+        imgWidth: 56
+        imgHeight: 96
+        width: 56
+        height: 96
+        offx: 0
+        offy: 0
+        origname: iL1tDeur0000001.png
+        shape: rect
+        left: 28
+        right: 28
+        top: 96
+        bottom: 0
+        uid: L1tDeur0000001
+        padding: 1
+        isBlank: false
+        source: L1_deur.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_kluisje
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 24
+          - 100
+        marginx: 0
+        marginy: 0
+        imgWidth: 48
+        imgHeight: 100
+        width: 48
+        height: 100
+        offx: 0
+        offy: 0
+        origname: iL1tKluisje0001.png
+        shape: rect
+        left: 24
+        right: 24
+        top: 100
+        bottom: 0
+        uid: L1tKluisje0001
+        padding: 1
+        isBlank: false
+        source: L1_kluisje.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_leraar
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 28
+          - 100
+        marginx: 0
+        marginy: 0
+        imgWidth: 56
+        imgHeight: 100
+        width: 56
+        height: 100
+        offx: 0
+        offy: 0
+        origname: iL1tLeraar00001.png
+        shape: rect
+        left: 28
+        right: 28
+        top: 100
+        bottom: 0
+        uid: L1tLeraar00001
+        padding: 1
+        isBlank: false
+        source: L1_leraar.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_camera
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 20
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 40
+        imgHeight: 28
+        width: 40
+        height: 28
+        offx: 0
+        offy: 0
+        origname: iL1tCamera00001.png
+        shape: rect
+        left: 20
+        right: 20
+        top: 0
+        bottom: 28
+        uid: L1tCamera00001
+        padding: 1
+        isBlank: false
+        source: L1_camera.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_toets
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 14
+          - 34
+        marginx: 0
+        marginy: 0
+        imgWidth: 28
+        imgHeight: 34
+        width: 28
+        height: 34
+        offx: 0
+        offy: 0
+        origname: iL1tToets000001.png
+        shape: rect
+        left: 14
+        right: 14
+        top: 34
+        bottom: 0
+        uid: L1tToets000001
+        padding: 1
+        isBlank: false
+        source: L1_toets.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_uitgang
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 32
+          - 104
+        marginx: 0
+        marginy: 0
+        imgWidth: 64
+        imgHeight: 104
+        width: 64
+        height: 104
+        offx: 0
+        offy: 0
+        origname: iL1tUitgang0001.png
+        shape: rect
+        left: 32
+        right: 32
+        top: 104
+        bottom: 0
+        uid: L1tUitgang0001
+        padding: 1
+        isBlank: false
+        source: L1_uitgang.png
+      - lastmod: 1793300000000
+        type: texture
+        name: L1_schoolbord
+        untill: 0
+        grid:
+          - 1
+          - 1
+        axis:
+          - 0
+          - 0
+        marginx: 0
+        marginy: 0
+        imgWidth: 160
+        imgHeight: 96
+        width: 160
+        height: 96
+        offx: 0
+        offy: 0
+        origname: iL1tSchoolbord1.png
+        shape: rect
+        left: 0
+        right: 160
+        top: 0
+        bottom: 96
+        uid: L1tSchoolbord1
+        padding: 1
+        isBlank: false
+        source: L1_schoolbord.png
   - type: folder
     uid: tk3NrkwdP94JDN
     colorClass: act
@@ -1307,6 +2305,482 @@ assets:
         hoverTexture: -1
         pressedTexture: -1
         disabledTexture: -1
+      - type: template
+        baseClass: AnimatedSprite
+        name: muurvlak
+        depth: -20
+        texture: L1tMuurvlak001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sMuurvlak001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: schoolbord
+        depth: -15
+        texture: L1tSchoolbord1
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sSchoolbord1
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: ladder
+        depth: -5
+        texture: L1tLadder00001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sLadder00001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: muur
+        depth: 0
+        texture: L1tMuur0000001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sMuur0000001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: deur
+        depth: -4
+        texture: L1tDeur0000001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sDeur0000001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: uitgang
+        depth: -4
+        texture: L1tUitgang0001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sUitgang0001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: kluisje
+        depth: 12
+        texture: L1tKluisje0001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events: []
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sKluisje0001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: toets
+        depth: 4
+        texture: L1tToets000001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |-
+              this.basisY = this.y;
+              this.tijd = Math.random() * 6;
+            arguments: {}
+            lib: core
+          - eventKey: OnStep
+            code: |-
+              // Zachtjes op en neer zweven
+              this.tijd += u.time * 3;
+              this.y = this.basisY - 6 + Math.sin(this.tijd) * 4;
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sToets000001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: camera
+        depth: 6
+        texture: L1tCamera00001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |-
+              this.tijd = 0;
+              this.bereik = 0.55; // hoe ver hij naar links/rechts draait (radialen)
+              this.draaiSnelheid = 1.2;
+              this.breedte = 30; // halve breedte van de lichtvlek op de vloer
+              this.hoek = 0;
+              this.raakX = this.x;
+              // De camera gaat om de beurt aan en uit: dan kun je erlangs sluipen!
+              this.aanDuur = 3;
+              this.uitDuur = 2.5;
+              this.klok = 0;
+              this.aan = true;
+            arguments: {}
+            lib: core
+          - eventKey: OnStep
+            code: |-
+              const L = (window as any).L1;
+              if (!L || L.status !== 'spelen') {
+                return;
+              }
+              if (this.vloer === undefined) {
+                this.vloer = L.vloerOnder(this.x, this.y + 20);
+              }
+              const dt = u.time;
+
+              // Aan / uit
+              this.klok += dt;
+              if (this.aan && this.klok >= this.aanDuur) {
+                this.aan = false;
+                this.klok = 0;
+              } else if (!this.aan && this.klok >= this.uitDuur) {
+                this.aan = true;
+                this.klok = 0;
+              }
+              this.tint = this.aan ? 0xffffff : 0x777777;
+
+              // Heen en weer draaien
+              if (this.aan) {
+                this.tijd += dt * this.draaiSnelheid;
+              }
+              this.hoek = Math.sin(this.tijd) * this.bereik;
+              this.rotation = -this.hoek;
+              this.raakX = this.x + Math.tan(this.hoek) * (this.vloer - this.y);
+
+              // --- Ziet hij Bob? ---
+              const p = templates.list['bob'][0];
+              if (this.aan && p && !p.verstopt) {
+                const b = L.spelerBox(p);
+                const pm = b.l + b.w / 2;
+                const voeten = b.t + b.h;
+                if (voeten > this.y && voeten <= this.vloer + 2 &&
+                    Math.abs(pm - this.raakX) < this.breedte + b.w / 4) {
+                  L.betrapt('De camera heeft je gezien!');
+                }
+              }
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sCamera00001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: leraar
+        depth: 8
+        texture: L1tLeraar00001
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |-
+              this.richting = 1; // 1 = rechts, -1 = links
+              this.snelheid = 80;
+              this.zicht = 220;
+              this.zichtNu = this.zicht;
+              this.pauze = 0;
+              this.alarm = false;
+              // Loopt 240 pixels heen en weer rond zijn startplek
+              this.links = this.x - 240;
+              this.rechts = this.x + 240;
+            arguments: {}
+            lib: core
+          - eventKey: OnStep
+            code: |-
+              const L = (window as any).L1;
+              if (!L || L.status !== 'spelen') {
+                return;
+              }
+              const dt = u.time;
+
+              // --- Patrouilleren ---
+              if (this.pauze > 0) {
+                this.pauze -= dt;
+                if (this.pauze <= 0) {
+                  this.richting *= -1;
+                }
+              } else {
+                this.x += this.richting * this.snelheid * dt;
+                if (this.richting > 0 && this.x >= this.rechts) {
+                  this.x = this.rechts;
+                  this.pauze = 1.2;
+                } else if (this.richting < 0 && this.x <= this.links) {
+                  this.x = this.links;
+                  this.pauze = 1.2;
+                }
+              }
+              this.scale.x = Math.abs(this.scale.x) * this.richting;
+
+              // Zicht stopt bij een muur
+              this.zichtNu = this.zicht;
+              while (this.zichtNu > 0 && !L.vrijZicht(this.x, this.x + this.richting * this.zichtNu, this.y - 60)) {
+                this.zichtNu -= 10;
+              }
+
+              // --- Ziet hij Bob? ---
+              const p = templates.list['bob'][0];
+              if (p && !p.verstopt) {
+                const b = L.spelerBox(p);
+                const pm = b.l + b.w / 2;
+                const zelfdeVloer = Math.abs(b.t + b.h - this.y) < 12;
+                const voor = (pm - this.x) * this.richting;
+                if (zelfdeVloer && (Math.abs(pm - this.x) < 26 || (voor > 0 && voor - b.w / 2 < this.zichtNu))) {
+                  this.alarm = true;
+                  L.betrapt('De leraar heeft je gezien!');
+                }
+              }
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sLeraar00001
+        behaviors: []
+        extendTypes: ''
+      - type: template
+        baseClass: AnimatedSprite
+        name: bob
+        depth: 10
+        texture: zFp1nck318KfNW
+        playAnimationOnStart: false
+        loopAnimation: true
+        animationFPS: 30
+        visible: true
+        events:
+          - eventKey: OnCreate
+            code: |-
+              this.snelheid = 200;
+              this.klimSnelheid = 150;
+              this.vy = 0;
+              this.verstopt = false;
+              this.deurPauze = 0;
+              this.uitgangPauze = 0;
+            arguments: {}
+            lib: core
+          - eventKey: OnStep
+            code: |-
+              const L = (window as any).L1;
+              if (!L || L.status !== 'spelen') {
+                return;
+              }
+              const dt = u.time;
+              const lijf = L.spelerBox(this);
+              const W = lijf.w, H = lijf.h;
+              const midden = () => this.x + W / 2;
+              const voeten = () => this.y + H;
+              this.deurPauze -= dt;
+              this.uitgangPauze -= dt;
+
+              // --- Verstopt in een kluisje ---
+              if (this.verstopt) {
+                if (actions.Actie.pressed) {
+                  this.verstopt = false;
+                  this.alpha = 1;
+                }
+                return;
+              }
+
+              // --- Op een ladder? ---
+              let ladder = null;
+              for (const l of templates.list['ladder']) {
+                const b = L.box(l);
+                if (Math.abs(midden() - (b.l + b.w / 2)) < 22 &&
+                    voeten() >= b.t - 1 && voeten() <= b.t + b.h + 1) {
+                  ladder = b;
+                  break;
+                }
+              }
+              const opGrond = L.vloerOp(this.x + 2, W - 4, voeten()) !== null;
+
+              // --- Verstoppen (E) ---
+              if (actions.Actie.pressed && opGrond) {
+                for (const k of templates.list['kluisje']) {
+                  if (L.overlapt(L.spelerBox(this), L.box(k))) {
+                    this.verstopt = true;
+                    this.alpha = 0.35;
+                    this.x = k.x - W / 2;
+                    L.meld('Verstopt! Druk op E om eruit te komen.', 1.5);
+                    return;
+                  }
+                }
+              }
+
+              // --- Deur naar een andere verdieping (W) ---
+              if (actions.Omhoog.pressed && opGrond && this.deurPauze <= 0) {
+                for (const d of templates.list['deur']) {
+                  if (d.partner && L.overlapt(L.spelerBox(this), L.box(d))) {
+                    this.x = d.partner.x - W / 2;
+                    this.y = d.partner.y - H;
+                    this.vy = 0;
+                    this.deurPauze = 0.4;
+                    return;
+                  }
+                }
+              }
+
+              let dx = 0;
+              if (actions.Links.down) {
+                dx -= 1;
+              }
+              if (actions.Rechts.down) {
+                dx += 1;
+              }
+              let dy = 0;
+              if (actions.Omhoog.down) {
+                dy -= 1;
+              }
+              if (actions.Omlaag.down) {
+                dy += 1;
+              }
+
+              // --- Klimmen ---
+              let klimt = false;
+              if (ladder) {
+                const boven = ladder.t, onder = ladder.t + ladder.h;
+                const halverwege = voeten() > boven + 0.5 && voeten() < onder - 0.5;
+                if ((dy < 0 && voeten() > boven + 0.5) || (dy > 0 && voeten() < onder - 0.5) || halverwege) {
+                  klimt = true;
+                  this.x = ladder.l + ladder.w / 2 - W / 2;
+                  this.y += dy * this.klimSnelheid * dt;
+                  // Binnen de ladder blijven
+                  if (voeten() < boven) {
+                    this.y = boven - H;
+                  }
+                  if (voeten() > onder) {
+                    this.y = onder - H;
+                  }
+                  this.vy = 0;
+                }
+              }
+
+              // --- Lopen ---
+              if (!klimt && dx !== 0) {
+                const nx = this.x + dx * this.snelheid * dt;
+                const proef = { l: nx, t: this.y, w: W, h: H - 1 };
+                if (!L.raaktMuur(proef)) {
+                  this.x = nx;
+                }
+              }
+
+              // --- Zwaartekracht ---
+              if (!ladder && L.vloerOp(this.x + 2, W - 4, voeten()) === null) {
+                const oud = voeten();
+                this.vy += 1500 * dt;
+                this.y += this.vy * dt;
+                // Landen op een vloer
+                for (const m of templates.list['muur']) {
+                  const b = L.box(m);
+                  if (this.x + 2 < b.l + b.w && this.x + W - 2 > b.l && oud <= b.t && voeten() >= b.t) {
+                    this.y = b.t - H;
+                    this.vy = 0;
+                    break;
+                  }
+                }
+              } else {
+                this.vy = 0;
+              }
+
+              // --- Toetsen oprapen ---
+              for (const t of templates.list['toets']) {
+                if (!t.kill && L.overlapt(L.spelerBox(this), L.box(t))) {
+                  t.kill = true;
+                  L.toetsen += 1;
+                  if (L.toetsen >= L.totaal) {
+                    L.meld('Alle toetsen! Snel naar de groene uitgang!', 3);
+                  } else {
+                    L.meld('Toets gevonden! (' + L.toetsen + '/' + L.totaal + ')', 2);
+                  }
+                }
+              }
+
+              // --- Uitgang ---
+              for (const e of templates.list['uitgang']) {
+                if (L.overlapt(L.spelerBox(this), L.box(e))) {
+                  if (L.toetsen >= L.totaal) {
+                    L.win();
+                  } else if (this.uitgangPauze <= 0) {
+                    L.meld('De deur zit op slot. Je mist nog ' + (L.totaal - L.toetsen) + ' toets(en)!', 2);
+                    this.uitgangPauze = 2;
+                  }
+                }
+              }
+            arguments: {}
+            lib: core
+        extends:
+          cgroup: ''
+          'editor:myCollidingCGroups': []
+        lastmod: 1793300000000
+        uid: L1sBob00000001
+        behaviors: []
+        extendTypes: ''
   - lastmod: 1793198237491
     type: texture
     name: ipDqK6wrzbHqk7t-removebg-preview
